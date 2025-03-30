@@ -10,6 +10,8 @@ header {
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
+    transform: scale(0.5);
+    transform-origin: top left; /* Ensures scaling starts from the top-left corner */
 }
 
 h1 {
