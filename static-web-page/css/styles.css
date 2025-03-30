@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background: #35424a;
+    background: #000000;
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
@@ -35,6 +35,15 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+section:first-of-type {
+    text-align: center; /* Centers only the text in the "About The Menace" section */
+}
+
+ul {
+    text-align: left; /* Ensures the links in the second section are aligned to the left */
+    padding-left: 20px; /* Adds some spacing for better readability */
+}
+
 a {
     color: #35424a;
     text-decoration: none;
@@ -42,14 +51,4 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #35424a;
-    color: #ffffff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
