@@ -36,7 +36,11 @@ section {
 }
 
 section:first-of-type {
-    text-align: center; /* Centers only the text in the "About The Menace" section */
+    text-align: left; /* Centers only the text in the "About The Menace" section */
+}
+
+h2 {
+    text-align: center;
 }
 
 ul {
